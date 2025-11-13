@@ -1,0 +1,13 @@
+estado = input("Estado:")
+cidade = input("Cidade:")
+bairro = input("Bairro:")
+cep = input("CEP:")
+rua = input("Rua:")
+numero = input("Nº:")
+
+print("~~~~ Seu endereço ~~~~")
+print("Estado:",estado)
+print("Cidade:",cidade)
+print("Bairro:",bairro)
+print("CEP:",cep)
+print("Rua:",rua,"- nº",numero)

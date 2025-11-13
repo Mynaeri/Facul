@@ -1,0 +1,13 @@
+a = float(input("Digite o valor de A:"))
+b = int(input("Digite o valor de B:"))
+
+multi = a*b
+divis = a/b
+soma = a+b
+sub = a-b
+poten = a**b
+
+print("A multiplicado por B é",multi)
+print("A dividido por B é",divis)
+print("A mais B é",soma,"e A menos B é",sub)
+print("A elevado a B é",poten)

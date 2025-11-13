@@ -1,0 +1,11 @@
+import math
+
+A = int(input("Primeiro número:"))
+B = int(input("Segundo número:"))
+C = int(input("Terceiro número:"))
+D = int(input("Quarto número:"))
+E = int(input("Quinto número:"))
+
+print("A área do triâgulo é:",(B*C)/2)
+print("O perímetro do retângulo é:",A+B+C+D)
+print("A área do círculo é:",(E**2)*math.pi)

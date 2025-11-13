@@ -1,0 +1,8 @@
+A = int(input("Primeiro número:"))
+B = int(input("Segundo número:"))
+C = int(input("Terceiro número:"))
+D = int(input("Quarto número:"))
+E = int(input("Quinto número:"))
+
+print("A soma de todos é:",A+B+C+D+E)
+print("O produto de todos é:",A*B*C*D*E)

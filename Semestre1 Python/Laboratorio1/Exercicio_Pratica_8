@@ -1,0 +1,13 @@
+GAPratica = float(input("Nota na atividade prática:"))
+GATeorica = float(input("Nota na atividade teórica:"))
+NotaGA = (GAPratica*0.45) + (GATeorica*0.55)
+GBLab = float(input("Nota na prova em lab:"))
+GBTeorico = float(input("Nota no teste teórico:"))
+GBExtra = float(input("Nota no trabalho extra:"))
+NotaGB = (GBLab*0.6)+(GBTeorico*0.2)+(GBExtra*0.2)
+
+Notafinal = ((NotaGA*0.33)+(NotaGB*0.67))
+
+Notaformatada = float("%.2f" % Notafinal)
+
+print("Sua nota final:",Notaformatada)

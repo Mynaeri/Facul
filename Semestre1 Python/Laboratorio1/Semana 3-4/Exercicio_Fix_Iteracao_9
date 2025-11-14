@@ -1,0 +1,15 @@
+val1 = int(input("Digite o primeiro valor: "))
+val2 = int(input("Digite o segundo valor: "))
+
+if val1 < 0 or val2 < 0:
+    print("Valor negativo inválido")
+elif val1 > val2:
+    while val2 <= val1:
+        if val2 % 2 == 0:
+            print(val2)
+        val2 += 1
+else:
+    while val1 <= val2:
+        if val1 % 2 == 0:
+            print(val1)
+        val1 += 1

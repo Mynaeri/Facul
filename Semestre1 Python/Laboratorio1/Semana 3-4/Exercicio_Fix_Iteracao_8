@@ -1,0 +1,12 @@
+quant = int(input("Quantos números você irá digitar? "))
+contador = 0
+
+while contador < quant:
+    numero = int(input("Digite o " + str(contador + 1) + "° número: "))
+    if numero == 0:
+        print("O número é 0")
+    elif numero > 0:
+        print("O número é posítivo")
+    else:
+        print("O número é negativo")    
+    contador += 1

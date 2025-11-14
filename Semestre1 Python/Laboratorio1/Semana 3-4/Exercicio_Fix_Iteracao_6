@@ -1,0 +1,10 @@
+contador = 0
+numerostr = ""
+
+while contador < 10:
+    numero = float(input("Digite sua nota: "))
+    if contador > 0:
+        numerostr += ", "
+    numerostr += str(numero)
+    contador += 1
+print("Os números digitados foram:",numerostr)

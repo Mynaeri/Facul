@@ -1,0 +1,8 @@
+contador = 0
+
+while contador <= 1000:
+    print(contador)
+    contador += 1
+    if contador == 1001:
+        break  
+print("A contagem acabou.")

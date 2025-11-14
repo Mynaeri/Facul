@@ -1,0 +1,13 @@
+A = int(input("Digite o valor de A:"))
+B = int(input("Digite o valor de B:"))
+C = int(input("Digite o valor de C:"))
+
+
+if A == B and B == C:
+    print("Todos os números são iguais!")
+elif A < B and A < C:
+    print("A é o menor número!")
+elif B < A and B < C:
+    print("B é o menor número!")
+else:
+    print("C é o menor número!")

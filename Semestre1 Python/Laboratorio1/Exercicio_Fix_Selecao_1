@@ -1,0 +1,6 @@
+X = int(input("Digite o valor de X:"))
+
+if X % 2 == 0:
+    print("X é um número par.")
+else:
+    print("X é um número ímpar.")

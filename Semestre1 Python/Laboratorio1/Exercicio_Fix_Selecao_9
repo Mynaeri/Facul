@@ -1,0 +1,14 @@
+# Grau A 30% e B 70%
+
+GA = float(input("Digite sua nota do Grau A: "))
+GB = float(input("Digite sua nota do Grau B: "))
+
+if GA < 0 or GB < 0:
+    print("Notas não podem ser negativas.")
+else:
+    Nota = (GA * 0.3) + (GB * 0.7)
+
+    if Nota < 6:
+        print(Nota,"~ Será necessário fazer o Grau C")
+    else:
+        print(Nota,"~ Parabéns, você passou!")

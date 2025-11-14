@@ -1,0 +1,9 @@
+A = int(input("Digite o valor de A:"))
+B = int(input("Digite o valor de B:"))
+
+if A > B:
+    print("O valor de A é maior que B")
+elif A == B:
+    print("Os valores são iguais.")
+else:
+    print("O valor de B é maior que A")

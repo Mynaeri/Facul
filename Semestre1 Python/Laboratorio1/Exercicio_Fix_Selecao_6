@@ -1,0 +1,12 @@
+preco = float(input("Digite o valor:"))
+
+if preco <= 0:
+    print("O valor é invalido")
+elif preco < 100:
+    print("Valor com 10%  de juros:", preco * 1.1)
+elif preco < 300:
+    print("Valor com 20% de juros:", preco * 1.2)
+elif preco < 1000:
+    print("Valor com 50% de juros:", preco * 1.5)
+else:
+    print("Valor com 100% de juros", preco * 2)

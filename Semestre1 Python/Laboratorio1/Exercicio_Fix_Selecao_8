@@ -1,0 +1,42 @@
+print("• Digite 1 para somar dois valores \n"
+"• Digite 2 para subtrair dois valores \n"
+"• Digite 3 para multiplicar dois valores \n"
+"• Digite 4 para dividir dois valores \n"
+"• Digite 5 para realizar uma potência entre dois valores \n"
+"• Digite 6 para realizar uma radiciação entre dois valores \n"
+"• Digite qualquer outro número para sair")
+
+opcao = int(input("Escolha uma opcao: "))
+
+if opcao == 1:
+    valora = float(input("Digite o primeiro valor: "))
+    valorb = float(input("Digite o segundo valor: "))
+    print("Resultado:", valora + valorb)
+elif opcao == 2:
+    valora = float(input("Digite o primeiro valor: "))
+    valorb = float(input("Digite o segundo valor: "))
+    print("Resultado: ", valora - valorb)
+elif opcao == 3:
+    valora = float(input("Digite o primeiro valor: "))
+    valorb = float(input("Digite o segundo valor: "))
+    print("Resultado:", valora * valorb)
+elif opcao == 4:
+    valora = float(input("Digite o primeiro valor: "))
+    valorb = float(input("Digite o segundo valor: "))
+    if valorb != 0:
+        print("Resultado:", valora / valorb)
+    else:
+        print("Divisao por 0 é inválida.")
+elif opcao == 5:
+    valora = float(input("Digite o primeiro valor: "))
+    valorb = float(input("Digite o segundo valor: "))
+    print("Resultado:", valora ** valorb)
+elif opcao == 6:
+    valora = float(input("Digite o primeiro valor: "))
+    valorb = float(input("Digite o segundo valor: "))
+    if valorb != 0:
+        print("Resultado:", valora ** (1/valorb))
+    else:
+        print("Índice 0 é inválido.")
+else:
+    print("Saindo da calculadora")

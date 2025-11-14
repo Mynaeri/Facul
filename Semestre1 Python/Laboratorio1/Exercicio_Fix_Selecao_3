@@ -1,0 +1,7 @@
+A = int(input("Digite o valor de A:"))
+B = int(input("Digite o valor de B:"))
+
+if B == 0:
+    print("Impossível dividir.")
+else:
+    print("A dividido por B é:", A / B)

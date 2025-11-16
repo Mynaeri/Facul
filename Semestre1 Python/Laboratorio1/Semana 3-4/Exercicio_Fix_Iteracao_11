@@ -1,0 +1,20 @@
+valor = int(input("Digite o primeiro número:"))
+
+valor2 = int(input("Digite o segundo número: "))
+
+soma = 0
+soma2 = 0
+
+if valor > valor2:
+    valor, valor2 = valor2, valor
+
+while valor <= valor2:
+    if valor % 2 == 0:
+        soma += valor
+    else:
+        soma2 += valor    
+    valor += 1
+
+print("Soma dos pares:",soma)
+
+print("Soma dos ímpares:",soma2)

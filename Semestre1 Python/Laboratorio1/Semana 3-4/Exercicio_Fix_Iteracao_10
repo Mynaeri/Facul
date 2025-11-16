@@ -7,3 +7,11 @@ print(n * (n + 1) / 2)
 
 '''
 
+soma = 0
+
+valor = 0
+
+while valor <= 198:
+    soma += valor
+    valor += 1
+print(soma)

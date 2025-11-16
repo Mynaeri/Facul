@@ -1,0 +1,15 @@
+contador = 0
+
+soma = 0
+
+while True:
+    numeros = int(input("Digite um número positivo: "))
+    if numeros > 0:
+        soma += numeros
+        contador += 1
+    else:
+        if contador > 0:
+            print(soma / contador)
+        else:
+            print("Nenhum número positivo.")
+        break

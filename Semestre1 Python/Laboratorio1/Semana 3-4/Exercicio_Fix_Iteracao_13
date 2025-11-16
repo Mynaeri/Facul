@@ -1,0 +1,13 @@
+escolhido = int(input("Digite um número positivo: "))
+
+multi = 1
+
+valor = 1
+
+if escolhido < 0:
+    print("Números negativos não são permitidos.")
+else:
+    while valor <= escolhido:
+        multi *= valor
+        valor += 1
+    print(multi)

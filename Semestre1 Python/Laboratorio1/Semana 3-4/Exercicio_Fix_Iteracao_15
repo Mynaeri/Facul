@@ -1,0 +1,19 @@
+numero = 2
+soma_primos = 0
+
+while numero <= 200:
+    divisor = 2
+    isprimo = True
+
+    while divisor < numero:
+        if numero % divisor == 0:
+            isprimo = False
+            break
+        divisor += 1
+
+    if isprimo:
+        print(numero)
+        soma_primos += numero
+    
+    numero += 1
+print("A soma dos valores primos é:", soma_primos)

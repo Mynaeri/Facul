@@ -1,0 +1,21 @@
+sucesso = False
+
+for tentativa in range(6):
+    senha = input("Digite uma senha (Apenas dígitos e entre 5 e 10 caractéres): ")
+
+    somentedigitos = False
+    if senha.isdigit():
+        somentedigitos = True
+
+    contagem = 0
+    for c in senha:
+        contagem += 1
+
+    if somentedigitos and 5 <= contagem <= 10:
+        sucesso = True
+        print("Senha definida.")
+    else:
+        print("Senha inválida.")
+
+if not sucesso:
+    print("Voce nao tem mais tentativas.")

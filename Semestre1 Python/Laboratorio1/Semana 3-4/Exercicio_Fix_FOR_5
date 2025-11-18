@@ -1,0 +1,9 @@
+lista = []
+
+quantidade = int(input("Quantos itens voce vai comprar? "))
+
+
+for produto in range(quantidade):
+    lista.append(input("Digite o produto: "))
+
+print("Sua lista de compras:", lista)

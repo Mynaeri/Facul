@@ -1,0 +1,5 @@
+
+escolhido = int(input("Digite um número: "))
+
+for vezes in range(1,11):
+    print(escolhido * vezes)

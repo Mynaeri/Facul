@@ -1,0 +1,11 @@
+frase = input("Digite uma frase: ").upper()
+
+
+vogais = "AEIOU"
+contagem = 0
+
+for letra in frase:
+    if letra in vogais:
+        contagem += 1
+
+print("Número de vogais na frase:", contagem)

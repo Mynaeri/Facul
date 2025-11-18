@@ -1,0 +1,42 @@
+
+
+solteiro = []
+
+casado = []
+
+divorciado = []
+
+viuvo = []
+
+for i in range(4):
+    print("\nPessoa " + str(i+1) + ":")
+    nome = input("Nome: ")
+    estado = input("Estado civil: ").lower()
+
+    if estado == "solteiro" or estado == "solteira":
+        solteiro.append(nome)
+    elif estado == "casado" or estado == "casada":
+        casado.append(nome)
+    elif estado == "divorciado" or "divorciada":
+        divorciado.append(nome)
+    elif estado == "viuvo" or estado == "viuva":
+        viuvo.append(nome)
+    else:
+        print("Estado civil invalido!")
+    
+
+print("Solteiros:")
+for n in solteiro:
+    print("- " + n)
+
+print("Casados:")
+for n in casado:
+    print("- " + n)
+
+print("Divorciados:")
+for n in divorciado:
+    print("- " + n)
+
+print("Viúvos:")
+for n in viuvo:
+    print("- " + n)

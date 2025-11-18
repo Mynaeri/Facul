@@ -1,0 +1,8 @@
+numa = int(input("Digite o primeiro número: "))
+numb = int(input("Digite o segundo número: "))
+
+if numa > numb:
+    numa, numb = numb, numa
+
+for i in range(numa, numb+1):
+    print(i)

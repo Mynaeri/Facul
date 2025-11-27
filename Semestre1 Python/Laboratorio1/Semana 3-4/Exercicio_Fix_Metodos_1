@@ -1,0 +1,11 @@
+val1 = int(input("Digite o valor 1: "))
+val2 = int(input("Digite o valor 2: "))  
+
+
+def divis(val1, val2):
+    return val1 % val2 == 0
+    
+if divis(val1, val2):
+    print("Valor divisivel")
+else:
+    print("Valor nao divisivel")

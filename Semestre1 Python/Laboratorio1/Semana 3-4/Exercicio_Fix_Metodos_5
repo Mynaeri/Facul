@@ -1,0 +1,14 @@
+def metodo(lista):
+    for i in lista:
+        print(i)
+
+lista = []
+
+while True:
+    item = input("Digite os itens ou digite sair para sair: ").lower().strip()
+    if item == "sair":
+        break
+    lista.append(item)
+
+print("Itens da lista: ")
+metodo(lista)

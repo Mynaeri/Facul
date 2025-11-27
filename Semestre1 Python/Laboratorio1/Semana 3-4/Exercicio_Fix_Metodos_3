@@ -1,0 +1,16 @@
+def contagem(val1):
+    contador = 0
+    soma = 0
+    if val1 > 0:
+        while contador <= val1:
+            soma += contador
+            contador += 1
+        return soma
+    else:
+        return -1
+    
+
+
+val1 = int(input("Digite o valor: "))
+
+print(contagem(val1))

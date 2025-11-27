@@ -1,0 +1,9 @@
+
+val1 = int(input("Digite o valor 1: "))
+val2 = int(input("Digite o valor 2: "))
+val3 = int(input("Digite o valor 3: "))
+
+def maiorValor(val1, val2, val3):
+    return max(val1, val2, val3)
+
+print(maiorValor(val1, val2, val3))

@@ -1,0 +1,9 @@
+def palavra(pal):
+    quant = 0
+    for i in pal:
+        quant += 1
+    return quant
+
+pal = input("Digite uma palavra ou frase: ")
+
+print("Quantidade de caracteres:", palavra(pal))

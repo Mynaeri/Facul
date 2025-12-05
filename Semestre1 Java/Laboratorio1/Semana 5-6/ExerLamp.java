@@ -5,12 +5,10 @@ public class ExerLamp {
 
     Lampada lampSala = new Lampada(false);
     
-    if (lampSala.isOnOff()){
+    if (lampSala.isOnOff())
         System.out.println("A lampada da sala esta ligada.");
-    } else{
+     else
         System.out.println("A lampada da sala esta desligada");
-    }
-
     }
 }
 
